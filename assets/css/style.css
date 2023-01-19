@@ -1131,7 +1131,6 @@ figcaption {
         transform: none;
         filter: none;
     }
-    
 }
 
 @media screen and (max-width:350px) {
