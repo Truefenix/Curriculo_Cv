@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<!-- Doctype informa ao agente de usuario a versão html -->
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Eduardo-Roque" content="name">
+        <meta name="keyworlds" content="HTML5, CSS, JS">
+        <meta name="viewport" content="width=device-width, initial=scale=1.0">
+        <!--=============== Remixicons ==============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== swiper Css ==============-->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
+        <!--=============== CSS ==============-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Portfólio - Truefenix</title>
+    </head>
+    <body>
+        <!--=============== Header ==============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#home" class="nav__link active-link">Hello</a>
+                        </li>
+
+                        <li>
+                            <a href="#portfolio" class="nav__link">Portfólio</a>
+                        </li>
+
+                        <li>
+                            <a href="#resume" class="nav__link">Resume</a>
+                        </li>
+
+                        <li>
+                            <a href="#certificados" class="nav__link">Certificados</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-fill"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-fill"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--=============== Main ==============-->
+        <main class="main">
+            <!--=============== Home ==============-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/profile.jpg" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__name">Eduardo A.Roque_</h1>
+                        <p class="home__work">Backend developer</p>
+
+                        <dl class="home__list">
+                            <dt>GitHub:</dt>
+                            <dd>https://github.com/Eduardo-Roque</dd>
+                            <dt>Linkedin:</dt>
+                            <dd>https://www.linkedin.com/in/eduardo-roque-79b23b214//dd>
+                            <dt>ADDRESS:</dt>
+                            <dd>Brazil</dd>
+                        </dl>
+                        <div class="home__socials">
+                            <a href="https://github.com/Eduardo-Roque" target="_blank" class="home__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/eduardo-roque-79b23b214/" target="_blank" class="home__social-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--=============== Hello ==============-->
+            <section class="hello section container">
+                <h2 class="section__title">Hi_</h2>
+
+                <p class="hello__details text-lg">
+                    Estudante de Análise e Desenvolvimento de Sistemas no Centro Universitário UniFatecie, 
+                    aluno do projeto ONE - Oracle Next Education, habilidades técnicas com 
+                    Java, HTML5, CSS3, JS, MySql, MongoDB, Spring Boot, JavaFX, JPA, Hibernate.
+                    <br>
+                    Entusiasta de projetos inovadores e experimentos na área de desenvolvimento de software
+                    e cada vez mais apaixonado pela área.
+                    <br>
+                    Eu desenvolvo sistemas com a linguagem JAVA, Orientação a objetos e seus princípios, 
+                    Java Desktop: Swing e JavaFX, Banco de Dados e Frameworks de persistência como JPA, 
+                    Desenvolver WebService com Spring Boot e Banco de Dados.
+                </p>
+                <a href="assets/img/Eduardo-Cv.pdf" class="button button-flex
+                text-sm"
+                ><i class="ri-download-line"> DOWNLOAD CV</i></a
+                >
+            </section>
+
+            <!--=============== Portfolio ==============-->
+            <section class="work section container" id="portfolio">
+                <h2 class="section__title">Portfólio_</h2>
+
+                <div class="project__categories">
+                    <button class="category__btn text-xs active-work" data-filter="all">
+                        ALL
+                    </button>
+                    <button class="category__btn text-xs" data-filter=".app">
+                        XXX
+                    </button>
+                    <button class="category__btn text-xs" data-filter=".web">
+                        AAA
+                    </button>
+                    <button class="category__btn text-xs" data-filter=".landing">
+                        ZZZ
+                    </button>
+                </div>
+
+                <div class="projects__container grid">
+                    <div class="project__item grid mix app">
+                        <a href="paginas/pagina1.html">
+                            <img src="assets/img/project.jpg" alt="VAZIO" 
+                            class="project__img">
+                        </a>
+
+                        <div class="project__data">
+                            <h3 class="project__title text-lg"> MOBILE AND DESKTOP APP</h3>
+                            <p class="project__description">
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy text ever since the 1500s, when an unknown 
+                                printer took a galley of type and scrambled it to make a type 
+                                specimen book.
+                            </p>
+                            <h4 class="project__stack text-xs">USED STACK</h4>
+                            <ul class="tags text-sm">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JAVASCRIPT</li>
+                                <li>NADA</li>
+                                <li>VAZIO</li>
+                                <li>VACUO</li>
+                            </ul>
+
+                            <!--lINK do portfólio descrevido-->
+                            <a href="" class="project__link text-sm">https://eduardo-roque.github.io/Curriculo_Cv/index.html</a>
+                        </div>
+                    </div>
+
+                    <div class="project__item grid mix web">
+                        <a href="paginas/pagina1.html">
+                            <img src="assets/img/project.jpg" alt="VAZIO" 
+                            class="project__img">
+                        </a>
+
+                        <div class="project__data">
+                            <h3 class="project__title text-lg"> ADMIN XXX ZZZ</h3>
+                            <p class="project__description">
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy text ever since the 1500s, when an unknown 
+                                printer took a galley of type and scrambled it to make a type 
+                                specimen book.
+                            </p>
+                            <h4 class="project__stack text-xs">USED STACK</h4>
+                            <ul class="tags text-sm">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JAVASCRIPT</li>
+                                <li>NADA</li>
+                                <li>VAZIO</li>
+                                <li>VACUO</li>
+                            </ul>
+
+                            <!--lINK do portfólio descrevido-->
+                            <a href="" class="project__link text-sm">https://eduardo-roque.github.io/Curriculo_Cv/index.html</a>
+                        </div>
+                    </div>
+
+                    <div class="project__item grid mix landing">
+                        <a href="paginas/pagina1.html">
+                            <img src="assets/img/project.jpg" alt="VAZIO" 
+                            class="project__img">
+                        </a>
+
+                        <div class="project__data">
+                            <h3 class="project__title text-lg"> VAZIO VAZIO NADA</h3>
+                            <p class="project__description">
+                                Lorem Ipsum is simply dummy text of the printing and 
+                                typesetting industry. Lorem Ipsum has been the industry's 
+                                standard dummy text ever since the 1500s, when an unknown 
+                                printer took a galley of type and scrambled it to make a type 
+                                specimen book.
+                            </p>
+                            <h4 class="project__stack text-xs">USED STACK</h4>
+                            <ul class="tags text-sm">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JAVASCRIPT</li>
+                                <li>NADA</li>
+                                <li>VAZIO</li>
+                                <li>VACUO</li>
+                            </ul>
+
+                            <!--lINK do portfólio descrevido-->
+                            <a href="" class="project__link text-sm">https://eduardo-roque.github.io/Curriculo_Cv/index.html</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== Skills ==============-->
+            <section class="section container">
+                <h2 class="section__title">Skills_</h2>
+
+                <div class="skills__container grid">
+                    <div class="skills__content">
+                        <h3 class="skills__title text-sm">FRONTEND</h3>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <p class="skills__name text-sm">HTML5</p>
+                                    <span class="skills__number text-sm">70%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 70%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <p class="skills__name text-sm">CSS3</p>
+                                    <span class="skills__number text-sm">60%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 60%"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <p class="skills__name text-sm">JavaScript</p>
+                                    <span class="skills__number text-sm">50%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 50%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__content">
+                        <h3 class="skills__title text-sm">BACKEND</h3>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <p class="skills__name text-sm">JAVA</p>
+                                    <span class="skills__number text-sm">90%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 90%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <p class="skills__name text-sm">SQL</p>
+                                    <span class="skills__number text-sm">60%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 60%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <p class="skills__name text-sm">Node Js</p>
+                                    <span class="skills__number text-sm">0%</span>
+                                </div>
+
+                                <div class="skills__bar">
+                                    <span class="skills__percentage" style="width: 0%"></span>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== Resume ==============-->
+            <section class="section container" id="resume">
+                <h2 class="section_title">Resume_</h2>
+                
+                <div class="resume__container grid">
+                    <div class="resume__data">
+                        <h3 class="resume__title text-sm">EDUCATION</h3>
+
+                        <div class="resume__item">
+
+                            <h3 class="resume__subtitle text-sm">
+                                ONE - Oracle Next Education
+                            </h3>
+                            <p class="resume__date text-sm">15/12/2020 - 15/06/2023</p>
+                            <p class="resume__description text-lg">
+                                O programa capacita o aluno com habilidades técnicas e 
+                                comportamentais para atuar como um Desenvolvedor Jr., 
+                                um profissional que trabalha para criar e melhorar sites, 
+                                softwares e aplicativos, e o prepara para conseguir uma 
+                                oportunidade de emprego.
+                            </p>
+                        </div>
+
+                        <div class="resume__item">
+
+                            <h3 class="resume__subtitle text-sm">
+                                Centro Universitário UniFatecie
+                            </h3>
+                            <p class="resume__date text-sm">2021 - 2024</p>
+                            <p class="resume__description text-lg">
+                                Cursando Análise e Desenvolvimento de Sistemas
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="resume__data">
+                        <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+
+                        <div class="resume__item">
+
+                            <h3 class="resume__subtitle text-sm">
+                                3Dr
+                            </h3>
+                            <h3 class="resume__subtitle text-sm">Freelancer em Animação 3D</h3>
+                            <p class="resume__date text-sm">jan de 2016 - fev de 2017 · 1 ano 2 meses</p>
+                            <p class="resume__description text-lg">
+                                Trabalhando no momento de Freelancer em Animação 3d 
+                                utilizando os software de Blender, after effects, 
+                                e minhas habilidades com essas ferramentas são modelagem, 
+                                animação 3D focado para empreendimento e modo geral, vídeo vfx, 
+                                pós-produção de vídeo, edição de vídeo, habilidade com o chroma 
+                                key, e criação de texturas.
+                            </p>
+                        </div>
+
+                        <div class="resume__item">
+
+                            <h3 class="resume__subtitle text-sm">
+                                Aprendiz
+                            </h3>
+                            <p class="resume__date text-sm">jan de 2016 - fev de 2017 · 1 ano 2 meses</p>
+                            <p class="resume__description text-lg">
+                                Aprendiz na cooperativa Agrária no setor do laboratório 
+                                de sementes. Além dos cursos profissionalizantes que a 
+                                cooperativa dispõe, a experiência profissional no laboratório 
+                                de sementes.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== Testimonials ==============-->
+            <section class="testimonials section">
+                <div class="testimonial__bg">
+                    <div class="testimonial__icon">
+                        <i class="ri-double-quotes-r"></i>
+                    </div>
+
+                    <div class="swiper testimonial__container container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide testimonial__item">
+                                <a href="https://www.linkedin.com/company/3drdesigner/" target="_blank">
+                                    <h3 class="author__name text-lg">3Dr Designer</h3></a>
+                                <p class="author__project">
+                                    Project: Já realizado na empresa 3Dr, 20 projetos na área de animação 3D.
+                                </p>
+                                <div class="ruler"></div>
+                                <p class="testimonial__description text-lg">
+                                    Excelente funcionário da empresa 3Dr, 
+                                    sempre entregou no prazo e com perfeição nas animações.
+                                </p>
+                            </div>
+
+                            <div class="swiper-slide testimonial__item">
+                                <a href="https://eduardo-roque.github.io/Curriculo_Cv/index.html" target="_blank">
+                                    <h3 class="author__name text-lg">Lorem Ipsum</h3></a>
+                                <p class="author__project">
+                                    Project: JLorem Ipsum is simply dummy 
+                                    text of the printing and typesetting industry.
+                                </p>
+                                <div class="ruler"></div>
+                                <p class="testimonial__description text-lg">
+                                    Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s, when an unknown 
+                                    printer took a galley of type and scrambled it to make a 
+                                    type specimen book.
+                                </p>
+                            </div>
+
+                            <div class="swiper-slide testimonial__item">
+                                <a href="https://eduardo-roque.github.io/Curriculo_Cv/index.html" target="_blank">
+                                    <h3 class="author__name text-lg">Lorem Ipsum</h3></a>
+                                <p class="author__project">
+                                    Project: JLorem Ipsum is simply dummy 
+                                    text of the printing and typesetting industry.
+                                </p>
+                                <div class="ruler"></div>
+                                <p class="testimonial__description text-lg">
+                                    Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s, when an unknown 
+                                    printer took a galley of type and scrambled it to make a 
+                                    type specimen book.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <img src="assets/img/arrow-next.gif">
+                        </div>
+                        <div class="swiper-button-prev">
+                            <img src="assets/img/arrow-prev.gif">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== Certificados ==============-->
+            <section class="services section container" id="certificados">
+                <h2 class="section__title">Certificados_</h2>
+
+                <div class="services__container grid">
+                    <div class="services__item">
+                        <a href="https://www.udemy.com/certificate/UC-80274cc9-6350-4d45-87c6-7a40e667811c/" 
+                            target="_blank" 
+                            style="color: #555;">
+                                <div class="icon__box">
+                                    <img 
+                                    src="assets/img/java.png" 
+                                    alt="" 
+                                    class="services__icon"
+                                    />
+                                    <div class="services__dot">
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+
+                                <h3 class="services__title text-lg" style="color: #4a4a4a">Java</h3>
+                                <p class="services__detail">
+                                    am an expert web designer and developer. Contrary to
+                                    to popular belief, Lorem Ipsum is no simply random
+                                    text. It has
+                                </p>
+                        </a>
+                    </div>
+     
+                    <div class="services__item">
+                        <a href="https://www.udemy.com/certificate/UC-13d644ad-f58c-4b56-8004-137b024a8fb8/" 
+                            target="_blank" 
+                            style="color: #555;">
+                                <div class="icon__box">
+                                    <img 
+                                    src="assets/img/sql.png" 
+                                    alt="" 
+                                    class="services__icon"
+                                    />
+                                    <div class="services__dot">
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+
+                                <h3 class="services__title text-lg" style="color: #4a4a4a">SQL</h3>
+                                <p class="services__detail">
+                                    am an expert web designer and developer. Contrary to
+                                    to popular belief, Lorem Ipsum is no simply random
+                                    text. It has
+                                </p>
+                        </a>
+                    </div>
+             
+                    <div class="services__item">
+                        <a href="https://cursos.alura.com.br/user/eduardo-roqueamaral09/course/html5-css3-avancando-css/certificate" 
+                            target="_blank" 
+                            style="color: #555;">
+                                <div class="icon__box" style="width: 152px;">
+                                    <img 
+                                    src="assets/img/html5.png" 
+                                    alt="" 
+                                    class="services__icon"
+                                    />
+                                    <img 
+                                    src="assets/img/css3.png" 
+                                    alt="" 
+                                    class="services__icon"
+                                    />
+                                    <div class="services__dot">
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+
+                                <h3 class="services__title text-lg" style="color: #4a4a4a">HTML5 e CSS3</h3>
+                                <p class="services__detail">
+                                    am an expert web designer and developer. Contrary to
+                                    to popular belief, Lorem Ipsum is no simply random
+                                    text. It has
+                                </p>
+                        </a>
+                    </div>
+
+                    <div class="services__item">
+                        <a href="https://cursos.alura.com.br/certificate/4efe3575-e584-4927-8201-17a2c15b9ba2" 
+                            target="_blank" 
+                            style="color: #555;">
+                                <div class="icon__box">
+                                    <img 
+                                    src="assets/img/javascript.png" 
+                                    alt="" 
+                                    class="services__icon"
+                                    />
+                                    <div class="services__dot">
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+
+                                <h3 class="services__title text-lg" style="color: #4a4a4a">JavaScript</h3>
+                                <p class="services__detail">
+                                    am an expert web designer and developer. Contrary to
+                                    to popular belief, Lorem Ipsum is no simply random
+                                    text. It has
+                                </p>
+                        </a>
+                    </div>
+
+                    <div class="services__item">
+                        <a href="https://cursos.alura.com.br/certificate/a65ef3b2-9862-4470-bda0-fbd4db114cf8" 
+                            target="_blank" 
+                            style="color: #555;">
+                                <div class="icon__box">
+                                    <img 
+                                    src="assets/img/github.png" 
+                                    alt="" 
+                                    class="services__icon"
+                                    />
+                                    <div class="services__dot">
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+
+                                <h3 class="services__title text-lg" style="color: #4a4a4a">Git e GitHub</h3>
+                                <p class="services__detail">
+                                    am an expert web designer and developer. Contrary to
+                                    to popular belief, Lorem Ipsum is no simply random
+                                    text. It has
+                                </p>
+                        </a>
+                    </div>
+
+                    <div class="services__item">
+                        <a href="https://www.dio.me/certificate/49CAEBCD/share" 
+                            target="_blank" 
+                            style="color: #555;">
+                                <div class="icon__box">
+                                    <img 
+                                    src="assets/img/logica.png" 
+                                    alt="" 
+                                    class="services__icon"
+                                    />
+                                    <div class="services__dot">
+                                        <span class="dot"></span>
+                                    </div>
+                                </div>
+
+                                <h3 class="services__title text-lg" style="color: #4a4a4a">Lógica de Programação</h3>
+                                <p class="services__detail">
+                                    am an expert web designer and developer. Contrary to
+                                    to popular belief, Lorem Ipsum is no simply random
+                                    text. It has
+                                </p>
+                        </a>
+                    </div>
+
+                </div>
+                </div>
+            </section>
+
+            <!--=============== Contact ==============-->
+            <section class="contact section" id="contact">
+                <div class="contact__content container">
+                    <h2 class="section__title">Get in touch_</h2>
+
+                    <div class="contact__container grid">
+                        <div class="contact__info">
+
+                            <ul class="contact__socials">
+                                <li>
+                                    <a href="https://github.com/Eduardo-Roque" 
+                                    class="contact__social-link">
+                                        Github
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/eduardo-roque-79b23b214/" 
+                                    class="contact__social-link">
+                                        Linkedin
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="contact-form">
+                            <p class="contact__form-title">Or just write me a letter here_</p>
+
+                            <form action="" id="contact-form">
+                                <div class="contact__input-div">
+                                    <input 
+                                    type="text" 
+                                    name="name"
+                                    placeholder="Your name" 
+                                    class="contact__input"
+                                    id="contact-name">
+                                </div>
+
+                                <div class="contact__input-div">
+                                    <input 
+                                    type="email" 
+                                    name="email"
+                                    placeholder="Your e-mail" 
+                                    class="contact__input"
+                                    id="contact-email">
+                                </div>
+
+                                <div class="contact__input-div">
+                                    <textarea 
+                                    name="message"
+                                    placeholder="Type the message here" 
+                                    class="contact__input textarea" 
+                                    id="message" 
+                                    cols="30" 
+                                    rows="10">
+                                    </textarea>
+                                </div>
+
+                                <p class="contact__message text-sm" 
+                                id="contact-message"></p>
+
+                                <button type="submit" class="button contact__button">
+                                    SEND
+                                </button>
+                            </form>
+
+                            <p class="footer__copy">
+                                &copy; 2023 Eduardo-Roque. All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--=============== Mixitub ==============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== Swiper Js ==============-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!--=============== Email JS ==============-->
+        <script 
+            type="text/javascript" 
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+
+        <!--=============== Js ==============-->
+        <script src="assets/js/main.js"></script>
+
+        <!--=============== Common ==============-->
+        <script src="assets/js/common.js"></script>
+    </body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfolio Website</title>
+
+    <!--=============== Remixicons ==============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+     <!--=============== CSS ==============-->
+     <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!--=============== Header ==============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="../index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== Portfolio Details ==============-->
+    <div class="portfolio__header"></div>
+
+    <section class="container">
+        <div class="portfolio__details">
+            <a href="../index.html" class="back__to-home text-xs">
+                <i class="ri-arrow-left-line"> Back</i>
+            </a>
+
+            <h3 class="post__details-title">
+                HOW I ORGANIZE MY WORK WITH CODE
+            </h3>
+            <p class="post__details-date text-sm">Janeiro, 00, 2023</p>
+            <p class="post__details text-ls">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into 
+                electronic typesetting, remaining essentially unchanged. It was popularised in 
+                the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including 
+                versions of Lorem Ipsum.
+
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those 
+                interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero 
+                are also reproduced in their exact original form, accompanied by English versions from 
+                the 1914 translation by H. Rackham.
+            </p>
+
+            <p class="post__details text-lg">
+                Why do we use it?
+                It is a long established fact that a reader will be distracted by the readable 
+                content of a page when looking at its layout. The point of using Lorem Ipsum is 
+                that it has a more-or-less normal distribution of letters, as opposed to using 
+                'Content here, content here', making it look like readable English. Many desktop 
+                publishing packages and web page editors now use Lorem Ipsum as their default 
+                model text, and a search for 'lorem ipsum' will uncover many web sites still in 
+                their infancy. Various versions have evolved over the years, sometimes by accident, 
+                sometimes on purpose (injected humour and the like).
+            </p>
+            
+            <figure>
+                <img src="../assets/img/post-details/code.jpg" alt="img-details">
+                <figcaption class="text-sm">
+                    This is how I organize my HTML, CSS and PHP files
+                </figcaption>
+            </figure>
+
+            <p class="post__details text-lg">
+                Where does it come from?
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
+                in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
+                looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
+                and going through the cites of the word in classical literature, discovered the 
+                undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus 
+                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This 
+                book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in 
+                section 1.10.32.
+            </p>
+
+            <div class="post__social-share">
+                <span class="post__share text-lg">Share this post:</span>
+                
+                <div class="post__social-links">
+                    <a href="https://truefenix.github.io/Curriculo_Cv/index.html"
+                        class="post__share-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--=============== Contact ==============-->
+    <section class="contact section" id="contact">
+        <div class="contact__content container">
+            <h2 class="section__title">Get in touch_</h2>
+
+            <div class="contact__container grid">
+                <div class="contact__info">
+
+                    <ul class="contact__socials">
+                        <li>
+                            <a href="https://github.com/Eduardo-Roque" 
+                            class="contact__social-link">
+                                Github
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/eduardo-roque-79b23b214/" 
+                            class="contact__social-link">
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form">
+                    <p class="contact__form-title">Or just write me a letter here_</p>
+
+                    <form action="" id="contact-form">
+                        <div class="contact__input-div">
+                            <input 
+                            type="text" 
+                            name="name"
+                            placeholder="Your name" 
+                            class="contact__input"
+                            id="contact-name">
+                        </div>
+
+                        <div class="contact__input-div">
+                            <input 
+                            type="email" 
+                            name="email"
+                            placeholder="Your e-mail" 
+                            class="contact__input"
+                            id="contact-email">
+                        </div>
+
+                        <div class="contact__input-div">
+                            <textarea 
+                            name="message"
+                            placeholder="Type the message here" 
+                            class="contact__input textarea" 
+                            id="message" 
+                            cols="30" 
+                            rows="10">
+                            </textarea>
+                        </div>
+
+                        <p class="contact__message text-sm" 
+                        id="contact-message"></p>
+
+                        <button type="submit" class="button contact__button">
+                            SEND
+                        </button>
+                    </form>
+
+                    <p class="footer__copy">
+                        &copy; 2023 Eduardo-Roque. All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== Email JS ==============-->
+    <script 
+        type="text/javascript" 
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <!--=============== Js ==============-->
+    <script src="../assets/js/common.js"></script>
+</body>
+</html>
