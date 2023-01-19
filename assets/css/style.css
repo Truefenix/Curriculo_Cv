@@ -1027,6 +1027,7 @@ figcaption {
     }
 
     .contact__container,
+    .posts__container,
     .skills__container,
     .services__container {
         grid-template-columns: 1fr;
@@ -1038,6 +1039,11 @@ figcaption {
 
     .project__data {
         padding: 2rem 1.25rem 1.5rem 1.25rem;
+    }
+
+    /* Esse Link estava bugando o tamanho da tela */
+    .project__link {
+        display: none;
     }
 
     .testimonial__item {
@@ -1066,6 +1072,10 @@ figcaption {
 
     .project__categories {
         column-gap: 1.5rem;
+    }
+
+    .tags li {
+        margin-bottom: 0.9rem;
     }
 
     .testimonial__item {
@@ -1103,7 +1113,6 @@ figcaption {
 
     .home__social-link {
         font-size: 2rem;
-        margin-left: 5rem;
     }
 
     .swiper-button-next img,
@@ -1123,4 +1132,26 @@ figcaption {
         filter: none;
     }
     
+}
+
+@media screen and (max-width:350px) {
+    :root {
+        --fs-h1: 1.5rem;
+    }
+    
+    .home__work {
+        font-size: var(--fs-sm);
+    }
+
+    .home__list {
+        font-size: 0.875rem;
+    }
+
+    .home-list dd {
+        padding-left: 5.75em;
+    }
+
+    .home__social-link {
+       font-size: 1.3rem; 
+    }
 }
