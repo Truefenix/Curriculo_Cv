@@ -839,6 +839,7 @@ input {
     box-shadow: 0 1px 21px rgb(0 0 0 / 14%);
     z-index: 10;
     position: relative;
+    margin-bottom: 6.25rem;
 }
 
 .back__to-home {
@@ -899,6 +900,57 @@ figcaption {
     opacity: 1;
 }
 
+/*=================== Style Switcher - Troca de Cor ==============*/
+.style__switcher {
+    position: fixed;
+    right: 0;
+    bottom: 20%;
+    padding: 0.625rem;
+    box-shadow: 5px 1px 10px rgba(0, 0, 0, 0.4);
+    background-color: var(--bg-color);
+    z-index: 101;
+    transform: translate(100%);
+}
+
+.open {
+    transform: translate(0);
+}
+
+.style__switcher-toggler {
+    position: absolute;
+    height: 52px;
+    width: 52px;
+    background-color: #2d2d2d;
+    right: 100%;
+    top: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.75rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.colors {
+    display: flex;
+    column-gap: 0.625rem;
+}
+
+.colors span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+}
+
+.color-1 {
+    background-color: #4a4a4a;
+}
+
+.color-2 {
+    background-color: #6d56c1;
+}
+
 /*=================== BreakOoints ==============================*/
 /* for large devices */
 @media screen and (max-width:1200px) {
@@ -943,6 +995,11 @@ figcaption {
         justify-content: center;
         align-items: center;
         transform: translate(-100%);
+        transition: 0.3s;
+    }
+
+    .show-menu {
+        transform: translate(0);
     }
 
     .nav__list {
@@ -1119,17 +1176,6 @@ figcaption {
     .swiper-button-prev img {
         width: 2.125rem;
         margin: 350% 0 0 0;
-    }
-
-    .project__img {
-        transition: none;
-        box-shadow: none;
-    }
-    
-    .project__img:hover {
-        opacity: none;
-        transform: none;
-        filter: none;
     }
 }
 
