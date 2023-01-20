@@ -5,12 +5,6 @@
     --header-height: 3.5rem;
 
     /*======= Colors ========*/
-    --primary-color: #4a4a4a;
-    --primary-color-alt:#575757;
-    --linear-gradient: linear-gradient(
-        54deg,
-        rgba(45, 45, 45, 0.95) 34%,
-        rgba(45, 45, 45, 0.95));
 
     --title-color: #4a4a4a;
     --text-color: #555;
@@ -910,6 +904,7 @@ figcaption {
     background-color: var(--bg-color);
     z-index: 101;
     transform: translate(100%);
+    transition: 0.3s;
 }
 
 .open {
