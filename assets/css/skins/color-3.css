@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #264664;
+    --primary-color-alt: #2a4d6e;
+    --linear-gradient: linear-gradient(
+        54deg,
+        rgba(41, 68, 99, 0.95) 34%,
+        hsla(207, 58%, 73%, 0.95)
+    );
+}
+
+.color-1 {
+    background-color: #4a4a4a;
+}

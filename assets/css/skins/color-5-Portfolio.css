@@ -1,0 +1,66 @@
+:root {
+    --primary-color: rgb(151, 192, 255);
+    --primary-color-alt:#e9ecefda;
+    --linear-gradient: linear-gradient(
+        54deg,
+        rgba(50, 57, 65, 0.95) 34%,
+        rgba(14, 62, 94, 0.95)
+    );
+
+    /*======= Colors ========*/
+
+    --title-color: #fff;
+    --text-color: #e4e4e4e1;
+    --text-color-alt: #e9ecef;
+    --bg-color: #333333;
+    --bg-color-alt: #4a4a4a;
+    --border-color: #7e7d7d;
+
+    /*======= Font and Typography ========*/
+    --roboto-font: 'Roboto', sans-serif;
+    --mono-font: 'Roboto Mono', monospace;
+
+    --fs-h1: 2.75rem;
+    --fs-h2: 2.25rem;
+    --fs-lg: 1.125rem;
+    --fs-base: 1rem;
+    --fs-sm: 0.875rem;
+    --fs-xs: 0.75rem;
+
+    /*======= Font Weigth ========*/
+    --medium: 500;
+    --semibold: 600;
+    --bold: 700;
+}
+
+/* Certificado */
+.letra-certificado {
+    color: #ffffff;
+}
+
+.services__item {
+    border-color: #fff;
+}
+
+/* Cor do Botão */
+.button {
+    background-color: #15476d;
+}
+
+.button:hover {
+    background-color: #123453;
+}
+
+/* Cor das outras Skin no Modo Noturno */
+.color-1 {
+    background-color: #fff;
+}
+
+.color-5 {
+    background-color: #333333;
+}
+
+.portfolio__details {
+    background-color: #2e2d2d;
+    box-shadow: 0 1px 21px rgba(66, 66, 66, 0.096);
+}
